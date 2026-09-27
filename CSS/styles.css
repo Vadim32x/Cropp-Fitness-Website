@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
     right: calc(100% + 8px);
     width: 26px;
     aspect-ratio: 1;
-    background: url(/images/Plus.svg) center/contain no-repeat;
+    background: url(./images/Plus.svg) center/contain no-repeat;
 }
 
 .backdrop-title::after {
@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     height: 100%;
     aspect-ratio: 1;
-    background: url(/images/arrow-button.svg) center/70% no-repeat;
+    background: url(./images/arrow-button.svg) center/70% no-repeat;
     border: var(--border);
     border-radius: 50%;
 }
@@ -437,7 +437,7 @@ input[type=number] {
     width: clamp(60px, 10.1vw, 194px);
     aspect-ratio: 1; /** ЭТО ДЛЯ АВТОМАТИЗАЦИИ ЧТОБ НЕ ПИСАТЬ ВЫСОТУ И ЭЛЕМЕНТ БЫЛ ПРОПОРЦИОНАЛЬНЫМ **/ 
     margin-right: 30px;
-    background: url('/images/Arrow.svg') center/contain no-repeat;
+    background: url('./images/Arrow.svg') center/contain no-repeat;
 }
 
 .banner-title {
@@ -540,7 +540,7 @@ input[type=number] {
     align-items: center;
     row-gap: 32px; /** Расстояние между текстом и картинкой **/
     padding-top: var(--training-typesItemBgIconSize);
-    background: url(/images/Vector\ arrow.svg) 100% 0/var(--training-typesItemBgIconSize) no-repeat;
+    background: url(./images/Vector\ arrow.svg) 100% 0/var(--training-typesItemBgIconSize) no-repeat;
 }
 
 .training-types-item-title {
@@ -557,7 +557,7 @@ input[type=number] {
     justify-content: center;
     align-items: center;
     padding: 150px 30px;
-    background: url(/images/bc.jpg) center/cover no-repeat var(--color-dark-alternate);
+    background: url(./images/bc.jpg) center/cover no-repeat var(--color-dark-alternate);
 }
 
 .join-us-video {
@@ -590,7 +590,7 @@ input[type=number] {
     content: "";
     width: 26px;
     aspect-ratio: 1;
-    background: url(/images/arrow-button.svg) center/contain no-repeat;
+    background: url(./images/arrow-button.svg) center/contain no-repeat;
     transition-duration: var(--transition-duraction);
 }
 
@@ -621,7 +621,7 @@ input[type=number] {
     height: 0.7em;
     aspect-ratio: 1;
     margin-left: 0.14em;
-    background: url(/images/Arrow.svg) center/contain no-repeat;
+    background: url(./images/Arrow.svg) center/contain no-repeat;
     scale: 1 -1;
 }
 
@@ -889,7 +889,7 @@ input[type=number] {
     height: 0.74em;
     aspect-ratio: 1;
     margin-left: 0.5em;
-    background: url(/images/Arrow.svg) center/contain no-repeat;
+    background: url(./images/Arrow.svg) center/contain no-repeat;
     scale: -1 1;
 }
 
@@ -911,7 +911,7 @@ input[type=number] {
     right: 0;
     height: 100%;
     aspect-ratio: 1;
-    background: url(/images/arrow-button.svg) center/70% no-repeat;
+    background: url(./images/arrow-button.svg) center/70% no-repeat;
     border: var(--border);
     border-radius: 50%;
 }
